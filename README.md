@@ -86,3 +86,26 @@ function handlerchange(e){
         )
         
     }
+# git :
+//git-scm.com after install it tip [git --version] to check wich version u are install it
+// you can config your info like this : 
+[git config --global user.name"...."]
+[git config --global user.name"...."]
+
+to see if the info are configer  [git config --list]
+
+** 1-cd to the folder     2-git init (this initialise the folder to be git repo)
+initialize the current folder as a git repo
+this folder will be the master branch
+
+3- git status "current status of the folder
+4-git add . (. means all the folder) to add our files to git repo
+(gid add <files/folder>)> adding them to staging area
+4- git commit -m "here the comment" >
+
+git log--oneline (see a brief log of the commits)
+git checkout <commint number><file > checkout the file from an oloder commit
+git reset (reset the staging area to the last commit )
+
+get clone url to create a copy of any repo
+
